@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.controls {
+    display: flex;
+    margin: 10px auto;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.controls button {
+    width: 15rem;
+    height: 5rem;
+    border-radius: 15px;
+    border: none;
+    background-color: #7FB3D5;
+    color: #2471A3;
+}
+
+.controls button:hover {
+    background-color: #A9CCE3;
+    color: #2980B9;
+}
+
+.flexContainer {
+    margin: auto 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgContainer {
+    width: 20rem;
+    height: 20rem;
+}
